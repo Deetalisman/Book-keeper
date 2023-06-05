@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Books</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section>
+        <div class="one">
+            <h1>Talisman</h1>
+            <p>Books for You</p>
+            <form id="searchbook" >
+                <input type="text" onfocus="back()" id="search" placeholder="Search for Books">
+            </form>
+        </div>
+        <div class="two">
+            <h1>Books to Read</h1>
+            <div class="books">
+                <p class="name">Book Name</p>  <p class="del">delete</p>
+            </div>
+        </div>
+        <form id="checkbox">
+            <input type="checkbox" id="hide" />
+            <label for="hide">Hide all books</label>
+        </form>
+        <form  id="addbook">
+            <input  type="text" onfocus="back()" id="addb" placeholder="Add a book">
+            <button>Add</button>
+        </form>
+        <small></small>
+    </section>
+        <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 60%;
+    margin: 3% 20%;
+}
+.one{
+    text-align: center;
+}
+.one h1{
+    font-size: 50px;
+    color: #1b9bff;
+}
+.one input{
+      margin-top: 15px;
+      width: 300px;
+      height: 22px;
+      padding-left: 10px;
+}
+.two{
+    margin:5% 20%;
+}
+.books{
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid  darkgray;
+    margin: 20px 0;
+}
+.books p{
+    margin-left: 7px;
+}
+.del{
+    background-color: #1b9bff;
+    cursor: pointer;
+    padding: 2px 5px;
+    height: 20px;
+    border-radius: 5px;
+    width: 40px;
+}
+.books:hover{
+    border-left: 5px solid  #1b9bff;
+     
+}
+#addbook{
+   width: 400px;
+   margin: 1% 30% 0;
+   display: block;
+}
+#hide{
+    width: 20px;
+}
+#checkbox{
+    width: 40%;
+   margin: 2% 30%;
+   font-size: 20px;
+}
+.text{
+    display: flex;
+
+}
+#addbook input{
+    width: 250px;
+    height: 20px;
+    padding-left: 10px;
+}
+button{
+    background-color: #1b9bff;
+    padding: 2px 9px;
+    cursor: pointer;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+#reset{
+    text-align: center;
+    padding: 5px;
+    background-color: #1b9bff;
+    border: 0;
+      border-radius: 5px;
+      margin: 10px 40%;
+      cursor: pointer;
+}
+small{
+    text-align: center;
+    color: red;
+}
+
+@media screen and (max-width:1115px) {
+    .two{
+        margin:5% 10%;
+
+    }
+}
+
+@media screen and (max-width:850px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    section{
+        width: 90%;
+        margin: 5% auto;
+    }
+    .one h1{
+        font-size: 50px;
+        color: darkslateblue;
+    }
+    .two{
+        margin:5% 0;
+    }
+    #addbook{
+        display: flex;
+       width: 40%;
+       margin: 8% 25% 0;
+    }
+    .del{
+        background-color: darkslateblue;
+        color: white;
+    }
+    button{
+        background-color: darkslateblue;
+        color: white;
+        
+    }
+    .books:hover{
+        border-left: 5px solid darkslateblue;
+         
+    }
+    #reset{
+        text-align: center;
+        padding: 5px;
+        background-color: darkslateblue;
+         border: none;
+    }
+}
